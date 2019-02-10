@@ -1,10 +1,11 @@
 {
-  "name": "now-server",
+  "name": "@archmaster/now-server",
   "version": "0.4.1",
-  "description": "",
+  "description": "Easily locally test your Now.sh apps.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "publish": "np"
   },
   "bin": {
     "now-server": "./index.js"
